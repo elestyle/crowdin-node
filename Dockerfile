@@ -1,4 +1,4 @@
-FROM node:16-alpine3.17
+FROM node:18-alpine3.18
 
 RUN apk add curl git openssh
 RUN apk --no-cache add sudo openjdk11-jre --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
